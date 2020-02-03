@@ -12,6 +12,12 @@ class UserController {
 
     return res.json({ id, name, email, provider });
   }
+
+  async update(req, res) {
+    // const id = req.userId;
+
+    return res.json({ ok: true });
+  }
 }
 
 export default new UserController();
