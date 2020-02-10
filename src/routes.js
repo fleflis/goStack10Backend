@@ -31,5 +31,6 @@ routes.get('/appointment', AppointmentController.index);
 routes.post('/appointment', AppointmentController.store);
 
 routes.get('/notiffications', NotificationController.index);
+routes.put('/notifications/:id', NotificationController.update);
 
 export default routes;
