@@ -29,6 +29,7 @@ routes.get('/schedule', ScheduleController.index);
 
 routes.get('/appointment', AppointmentController.index);
 routes.post('/appointment', AppointmentController.store);
+routes.delete('/appointment/:id', AppointmentController.delete);
 
 routes.get('/notiffications', NotificationController.index);
 routes.put('/notifications/:id', NotificationController.update);
