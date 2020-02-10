@@ -67,6 +67,16 @@ class AppointmentController {
     }
 
     /**
+     * Check if userId is the same as Provider
+     */
+
+    if (req.userId === provider_id) {
+      return res
+        .status(400)
+        .json({ error: 'Cannot create an appointment to self' });
+    }
+
+    /**
      * Check for past dates
      */
 
