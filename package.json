@@ -1,6 +1,6 @@
 {
   "name": "gobarber-backend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Backend da aplicação GoBarber",
   "main": "src/server.js",
   "author": "Fleflis",
